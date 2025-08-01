@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load assets
-model = joblib.load("C:/Users/phill/.spyder-py3/projects/Spam_detection/model.joblib")
-vectorizer = joblib.load("C:/Users/phill/.spyder-py3/projects/Spam_detection/vectorizer.joblib")
+model = joblib.load("model.joblib")
+vectorizer = joblib.load("vectorizer.joblib")
 
 # App UI
 st.title("Spam Detector")
